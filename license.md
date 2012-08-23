@@ -1,11 +1,3 @@
-# Jasy Skeleton
-
-Pre-Built skeletons for [Jasy](https://github.com/zynga/jasy).
-
-
-
-## License
-
 Copyright (c) 2011-2012 Zynga Inc. http://zynga.com/
 
 Permission is hereby granted, free of charge, to any person obtaining
