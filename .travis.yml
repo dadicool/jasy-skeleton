@@ -5,8 +5,8 @@ branches:
 python:
   - 3.2
 script:
-  - jasy create --name mytestgithub --origin https://github.com/zynga/jasy-skeleton.git --skeleton test-json-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-github; jasy help; popd
-  - jasy create --name mytestlocal --origin . --skeleton test-json-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local; jasy help; popd
-  - jasy create --name mytestlocal1 --origin . --skeleton test-py-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local1; jasy help; popd
-  - jasy create --name mytestlocal2 --origin . --skeleton test-yaml-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local2; jasy help; popd
-  - jasy create --name mytestlocal3 --origin . --skeleton test-yaml-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local3; jasy help; popd
+  - jasy create --name mytestgithub --origin https://github.com/zynga/jasy-skeleton.git --skeleton test-json-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytestgithub; jasy help; popd
+  - jasy create --name mytestlocal --origin . --skeleton test-json-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytestlocal; jasy help; popd
+  - jasy create --name mytestlocal1 --origin . --skeleton test-py-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytestlocal1; jasy help; popd
+  - jasy create --name mytestlocal2 --origin . --skeleton test-yaml-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytestlocal2; jasy help; popd
+  - jasy create --name mytestlocal3 --origin . --skeleton test-yaml-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytestlocal3; jasy help; popd
