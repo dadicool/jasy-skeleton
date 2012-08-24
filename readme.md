@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/dadicool/jasy-skeleton.png?branch=master)](http://travis-ci.org/dadicool/jasy-skeleton)
+
 # Jasy Skeleton
 
 Pre-Built skeletons for [Jasy](https://github.com/zynga/jasy).
