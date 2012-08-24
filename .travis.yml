@@ -5,7 +5,8 @@ branches:
 python:
   - 3.2
 script:
-  - jasy create --name mytest --origin https://github.com/dadicool/jasy-skeleton.git --skeleton test-json-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest; jasy help; popd
-  - jasy create --name mytest1 --origin https://github.com/dadicool/jasy-skeleton.git --skeleton test-py-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest1; jasy help; popd
-  - jasy create --name mytest2 --origin https://github.com/dadicool/jasy-skeleton.git --skeleton test-yaml-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest2; jasy help; popd
-  - jasy create --name mytest3 --origin https://github.com/dadicool/jasy-skeleton.git --skeleton test-yaml-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest3; jasy help; popd
+  - jasy create --name mytest-github --origin https://github.com/zynga/jasy-skeleton.git --skeleton test-json-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-github; jasy help; popd
+  - jasy create --name mytest-local --origin . --skeleton test-json-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local; jasy help; popd
+  - jasy create --name mytest-local1 --origin . --skeleton test-py-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local1; jasy help; popd
+  - jasy create --name mytest-local2 --origin . --skeleton test-yaml-create --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local2; jasy help; popd
+  - jasy create --name mytest-local3 --origin . --skeleton test-yaml-project --user.age 34 --user.name Alex --incr 6,7,8 --foo-bar hello --pi 3.17; pushd mytest-local3; jasy help; popd
