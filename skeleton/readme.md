@@ -1,5 +1,5 @@
 Jasy Skeleton Projects
 ======================
 
-- test-*
+- `test-*`
 Skeletons used for jasy testing
